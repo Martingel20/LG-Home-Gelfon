@@ -1,158 +1,21 @@
 
 /* INDEX HEADER Y FOOTER */
 
-body{
-    margin: 0;
-    box-sizing: border-box;
-}
-
-header{
-    background-color: #8b0000;
-    align-items: center;
-    background: rgb(2,0,36);
+.menu{
+    height: 12rem;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(139,0,0,1) 100%, rgba(0,212,255,1) 100%);
 }
 
-
-nav ul{
-    list-style-type: none;
-    display: flex;
-    
-}
-
-nav li {
-    margin-right: 20px;
-    
-}
-
-a{
-    color: #ffffff;
-}
-
-footer {
-    background-color: #c2c2c2;
-}
-
-.grid-container-header{
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-bottom: 10px;
-    justify-content: space-between;
-
-}
-
-.grid-container-main{
-    display: grid;
-    margin-bottom: 10px;
-
-}
-
-.grid-container-footer{
-    display: grid;
-    grid-template-columns: auto auto ;
-    margin-bottom: 10px;
-    justify-content: space-between;
-
-}
-
-.grid-container-main-section{
-
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-between;
-    
-}
-
-
-.grid-container-main .item{
-
-    margin-bottom: 100px;
-    text-align: center;
-    font-size: large;
-}
-
-.grid-container-main .item h1{
-    margin-top: 58px;
-}
-
-.main-banner{
-    margin: 0px;
-}
-
-.grid-container-footer div{
-
-    margin: 10px;
-
-}
-
-.grid-container-header div{
-
-    margin: 10px;
-
-}
-
-.main-section-img{
-    display: flex;
-    justify-content: space-between;
-    height: 350px;
-    overflow: hidden;
-    border: solid;
-    border-color: black;
-}
-
-.img-banner{
-    border: #000000 solid;
-    justify-self: center;
-    color: #c2c2c2;
+.text{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(139,0,0,1) 100%, rgba(0,212,255,1) 100%);
+    border-radius: 50px;
     border-radius: 50px;
     width: 400px;
     height: 150px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(139,0,0,1) 100%, rgba(0,212,255,1) 100%);
-
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.header__img{
-    width: 150px;
-    border: solid #000000;
-}
-
-@media (max-width:600px){
-
-    .header__img{
-        width: 120px;
-        border: solid #000000;
-    }
-
-    nav ul{
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .img-banner{
-        border: #000000 solid;
-        justify-self: center;
-        border-radius: 50px;
-        width: 200px;
-        height: 100px;
-        margin-top: 50px;
-    }
-
-.grid-container-main .item h1{
-        margin-top: 30px;
-    }
-
-    .main-section-img{
-        display: flex;
-        justify-content: space-between;
-        height: 150px;
-        overflow: hidden;
-        border: solid;
-        border-color: black;
-    }
-
-}
 
 
 /* PRODUCTOS */
