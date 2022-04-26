@@ -1,0 +1,21 @@
+{
+  "name": "martin-gelfon-lg-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martingel20/LG-Home-Gelfon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martingel20/LG-Home-Gelfon/issues"
+  },
+  "homepage": "https://github.com/Martingel20/LG-Home-Gelfon#readme"
+}
