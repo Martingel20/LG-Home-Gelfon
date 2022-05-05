@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.text-index {
+  width: 450px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 nav {
   height: 12rem;
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(139, 0, 0) 100%, rgb(0, 212, 255) 100%);
@@ -20,22 +28,15 @@ nav li a {
 
 .text {
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(139, 0, 0) 100%, rgb(0, 212, 255) 100%);
-  border-radius: 50px;
-  border-radius: 50px;
   width: 450px;
   height: 100px;
+  border-radius: 50px;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .text-index {
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(139, 0, 0) 100%, rgb(0, 212, 255) 100%);
-  border-radius: 50px;
-  border-radius: 50px;
-  width: 450px;
-  height: 150px;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 /* PRODUCTOS */

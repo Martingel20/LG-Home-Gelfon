@@ -1,0 +1,8 @@
+$tiendas: (
+    img-tiendas1: 28rem,
+    img-tiendas2: 30rem
+);
+
+$img-tiendas1: map-get($tiendas, img-tiendas1);
+
+$img-tiendas2: map-get($tiendas, img-tiendas2);

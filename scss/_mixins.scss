@@ -1,0 +1,7 @@
+@mixin text-img ($width, $height, $border-radius, $text-align, $margin-b) {
+    width: $width;
+    height: $height;
+    border-radius: $border-radius;
+    text-align: $text-align;
+    margin-bottom: $margin-b;
+}
